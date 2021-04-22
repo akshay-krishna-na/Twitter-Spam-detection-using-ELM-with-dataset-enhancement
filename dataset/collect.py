@@ -3,10 +3,10 @@ import tweepy as tw
 import csv
 from datetime import date
 
-consumer_key= 'kwKnXhRyrUCglyGs1XBdzl7nF' #api_key
-consumer_secret= 'IZhS4F1xZRk4TiMDwVfxbWuBoOWa0txljpf0tmkU9OWxswXuBw' #api_secret_key
-access_token= '835335689793220613-MmjXFl3Fbls48mJhZr6Mc4BrAaH001m'
-access_token_secret= 'u4KHEBdTyzY7fKVoOevNJsNDTLXmuBFFeeSJ0yRJpy2vk'
+consumer_key= '' #api_key
+consumer_secret= '' #api_secret_key
+access_token= ''
+access_token_secret= ''
 
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
